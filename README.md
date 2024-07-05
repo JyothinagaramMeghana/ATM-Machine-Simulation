@@ -4,13 +4,9 @@ This project simulates the basic functions of an ATM machine using Python. It al
 Table of Contents
 
 - [Features](#features)
-- [Usage](#usage)
 - [Requirements](#requirements)
 - [Functionality](#functionality)
-- [Installation](#installation)
 - [Running the Program](#running-the-program)
-- [Contributing](#contributing)
-- [License](#license)
 
 Features
 
