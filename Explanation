@@ -1,0 +1,44 @@
+This ATM simulation is intended to demonstrate basic banking operations within a simple command-line interface. Users can interact with the ATM to perform various transactions, manage their PIN, and keep track of their transaction history.
+
+Features
+Balance Inquiry: Check the current balance of the account.
+Cash Deposit: Deposit funds into the account.
+Cash Withdrawal: Withdraw funds from the account.
+PIN Change: Update the account's PIN.
+Transaction History: View a log of all transactions.
+Class and Functions Explanation
+
+Class: ATM
+Initialization:
+
+__init__(self, initial_balance=0, pin="1234"): Initializes the ATM instance with a given balance and PIN.
+Parameters:
+initial_balance (float): The starting balance of the account. Default is 0.
+pin (str): The account's PIN code. Default is "1234".
+Check Balance:
+
+check_balance(self): Displays the current account balance and logs this action.
+Deposit Cash:
+
+deposit(self, amount): Adds the specified amount to the account balance if the amount is positive and logs the transaction.
+Parameters:
+amount (float): The amount to be deposited.
+Withdraw Cash:
+
+withdraw(self, amount): Withdraws the specified amount from the account if sufficient funds are available and logs the transaction.
+Parameters:
+amount (float): The amount to be withdrawn.
+Change PIN:
+
+change_pin(self, old_pin, new_pin): Updates the account's PIN if the old PIN matches the current PIN and logs the transaction.
+Parameters:
+old_pin (str): The current PIN.
+new_pin (str): The new PIN to be set.
+Transaction History:
+
+show_transaction_history(self): Prints the list of all recorded transactions.
+Function: main
+The main function initializes an instance of the ATM class with a default balance of $1000.
+It presents a menu to the user, allowing them to select various banking operations.
+Based on the user's choice, it calls the appropriate methods of the ATM instance.
+The loop continues until the user decides to exit the simulation.
