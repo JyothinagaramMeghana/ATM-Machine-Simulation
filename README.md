@@ -23,11 +23,11 @@ Requirements
 
 Functionality
 
-1. **Check Balance: Allows the user to view the current account balance.
+1. Check Balance: Allows the user to view the current account balance.
 2. Deposit: Allows the user to deposit money into the account.
 3. Withdraw: Allows the user to withdraw money from the account.
 4. Change PIN: Allows the user to change the account PIN.
-5. Transaction History**: Shows a history of all transactions.
+5. Transaction History: Shows a history of all transactions.
 
 
 Running the Program
